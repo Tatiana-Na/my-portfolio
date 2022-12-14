@@ -13,6 +13,9 @@
 
 /*=======colours======*/
 --title-color: black;
+--first-color: rgb(241, 241, 186); 
+--second-color: rgb(136, 136, 49); 
+--third-color: rgb(70, 70, 7); 
 }
 
 html {
@@ -20,6 +23,33 @@ html {
 }
 
 
-.title {
-  color: red;
+/*=======breakpoints======*/
+/* for mobile devices */
+@media screen and (max-width: 350px) {
+  .container {
+    margin-right: 25px;
+  }
+  }
+
+
+
+/* for tablets */
+@media screen and (max-width: 768px) {
+  .container {
+    margin-right: 25px;
+  }
+}
+
+/* for small screens, laptops */
+@media screen and (max-width: 1024px) {
+  .container {
+    margin-right: 25px;
+  }
+}
+
+/* for desktops, large screens. */
+@media screen and (max-width: 1200px) {
+  .container {
+    margin-right: 45px;
+  }
 }
