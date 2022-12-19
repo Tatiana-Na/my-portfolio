@@ -2,6 +2,7 @@ import logo from '../images/logo.svg';
 import '../styles/App.scss';
 import Header from './Header';
 import Home from './home/Home';
+import About from './about/About';
 
 
 
@@ -12,7 +13,8 @@ function App() {
    <Header/>
 
    <main className='main'>
-    <Home/>
+    <Home />
+    <About />
    </main>
    </>
   );

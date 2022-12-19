@@ -29,18 +29,27 @@ html {
   .container {
     margin-right: 25px;
   }
-  }
+}
 
 
 /* for tablets */
+  @media screen and (max-width: 576px){
+    .section {
+        padding: 2rem 0 4rem;
+    }
+  }
+
+
+/* for large devices */
 @media screen and (max-width: 768px) {
   .container {
     margin-right: 25px;
   }
 }
 
-/* for small screens, laptops */
-@media screen and (max-width: 1024px) {
+
+/* for laptops for desktops,*/
+@media screen and (max-width: 992px) {
   .container {
     margin-right: 25px;
   }
