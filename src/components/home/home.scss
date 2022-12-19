@@ -1,0 +1,80 @@
+.home__content {
+  display: grid;
+  grid-template-columns: 116px repeat(2, 1fr);  
+  padding-top: 5.5rem ;
+  column-gap: 2rem;
+  align-items: center;
+}
+
+.home__social {
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+}
+
+.home__social-icon {
+    font-size: 1.25rem;
+    color: red;
+}
+
+.home__social-icon:hover {
+    color: black;
+}
+
+.home__title {
+font-size: 30px;
+}
+
+.home__subtitle {
+    position: relative;
+}
+
+.home__describtion {
+    max-width: 400px;
+}
+
+.home__img {
+    background: url(../../images/foto.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    order: 1;
+    justify-self: center ;
+}
+
+
+/*=======breakpoints======*/
+/* for mobile devices */
+@media screen and (max-width: 350px) {
+    .container {
+      margin-right: 25px;
+    }
+    }
+  
+  
+  /* for tablets */
+  @media screen and (max-width: 768px) {
+    .home__content {
+        grid-template-columns: 100px repeat(2, 1fr);
+        column-gap: 1.25rem;
+    }
+
+    
+  }
+  
+  /* for small screens, laptops */
+  @media screen and (max-width: 1024px) {
+    .container {
+      margin-right: 25px;
+    }
+  }
+  
+  /* for desktops, large screens. */
+  @media screen and (max-width: 1200px) {
+    .container {
+      margin-right: 45px;
+    }
+  }
+
