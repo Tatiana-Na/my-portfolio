@@ -9,7 +9,6 @@ const Home = () => {
             <div className="home__container container grid"></div>
             <div className="home__content grid">
                 <SocialMedia />
-                <div className="home__img"></div>
                 <Data />
 
             </div>

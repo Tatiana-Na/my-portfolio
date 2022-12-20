@@ -10,18 +10,27 @@
 :root {
 /*=======fonts======*/
 --body-font: 'Poppins', sans-serif;
+/* Font size variables */
+--small: 10px;
+--medium: 14px;
+--large: 20px;
 
 /*=======colours======*/
---title-color: black;
---first-color: rgb(241, 241, 186); 
---second-color: rgb(136, 136, 49); 
---third-color: rgb(70, 70, 7); 
+--pink-color: #EBAAB0;
+--beige-color: #F3E1C0; 
+--blue-color: #275070; 
+--burgundy-color: #955670; 
+--grey-color: rgb(160, 157, 157);
 }
 
 html {
   scroll-behavior: smooth;
+  background-color: var(--beige-color);
 }
 
+a {
+ text-decoration: none;
+}
 
 /*=======breakpoints======*/
 /* for mobile devices */

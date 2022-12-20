@@ -3,6 +3,7 @@ import '../styles/App.scss';
 import Header from './Header';
 import Home from './home/Home';
 import About from './about/About';
+import Skills from './skills/Skills';
 
 
 
@@ -15,6 +16,7 @@ function App() {
    <main className='main'>
     <Home />
     <About />
+    <Skills />
    </main>
    </>
   );
